@@ -1,0 +1,142 @@
+.page-footer {
+  background: #002C4D;
+}
+
+.page-footer__wrapper-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 51px;
+  margin-bottom: 27px;
+}
+
+.page-footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-footer__wrapper-inform {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.page-footer__list-inform {
+  display: flex;
+  justify-content: space-between;
+  width: 759px;
+}
+
+.page-footer__list-contacts {
+  width: 292px;
+}
+
+.page-footer__item-contacts {
+  font-family: "AvenirNextCyr-Light", "OpenSans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-bottom: 24px;
+}
+
+.page-footer__title {
+  font-family: "AvenirNextCyr-Medium", "OpenSans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  padding: 0;
+  margin: 0;
+  margin-bottom: 23px;
+}
+
+.page-footer__link {
+  font-family: "AvenirNextCyr-Light", "OpenSans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+
+  &:hover {
+    color: #20afff;
+    border-bottom: 1px solid #20afff;
+  }
+
+  &:focus {
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+  }
+}
+
+.page-footer__item {
+  margin-bottom: 10px;
+}
+
+.page-footer__text-inform {
+  font-family: "AvenirNextCyr-Light", "OpenSans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  margin: 0;
+
+  &:hover {
+    color: #20afff;
+    border-bottom: 1px solid #20afff;
+  }
+
+  &:focus {
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+  }
+}
+
+.page-footer__logo-image {
+  position: absolute;
+  top: 12px;
+}
+
+.page-footer__list-icons {
+  width: 177px;
+  height: 160px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-footer__item-icons {
+  background: #ffffff;
+  width: 39px;
+  height: 39px;
+  border-radius: 5px;
+  margin-bottom: 17px;
+  margin-right: 20px;
+
+  &:hover {
+    background: #00AEEF;
+  }
+}
+
+.page-footer__link-icons {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+
+  svg {
+    display: block;
+    margin: 0 auto;
+  }
+
+  &:hover {
+    path {
+      fill: #ffffff;
+    }
+  }
+}

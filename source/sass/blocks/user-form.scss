@@ -1,0 +1,87 @@
+.user-form {
+  max-width: 310px;
+  padding-top: 158px;
+  padding-bottom: 80px;
+}
+
+.user-form__email,
+.user-form__password {
+  font-family: "AvenirNextCyr-Bold", "OpenSans", sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #004460;
+  display: block;
+  width: 310px;
+  text-align: left;
+  margin-bottom: 7px;
+}
+
+.user-form__password {
+  margin-top: 24px;
+}
+
+.user-form__email-input,
+.user-form__password-input {
+  width: 310px;
+  height: 50px;
+
+  background: #FFFFFF;
+  border: 1px solid #EFF0F1;
+  box-sizing: border-box;
+  border-radius: 3px;
+
+  &:hover {
+    border-color: #004460;
+  }
+}
+
+.user-form__button {
+  font-family: "AvenirNextCyr-Bold", "OpenSans", sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  width: 310px;
+  height: 50px;
+
+  border-radius: 3px;
+  border: none;
+  cursor: url("../img/cursor.cur"), auto;
+
+  background: #EEFAFE;
+  color: #20AFFF;
+  outline: none;
+
+  &:hover {
+    background: #20AFFF;
+    color: #ffffff;
+  }
+
+  &--send {
+    margin-bottom: 20px;
+  }
+
+  &--registr {
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+}
+
+.user-form__link {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #004460;
+
+  &:hover {
+    color: #20AFFF;
+  }
+}

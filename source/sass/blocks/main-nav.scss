@@ -1,0 +1,160 @@
+.main-nav {
+  width: 100%;
+  min-height: 130px;
+  position: fixed;
+  background: linear-gradient(to bottom, transparent 0%, transparent 57px, #ebebeb 57px, #ebebeb 58px, transparent 58px, transparent 100%);
+  z-index: 5;
+}
+
+.main-nav__logo-image--navbar {
+  display: none;
+}
+
+.main-nav__wrapper {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 23px;
+  padding-bottom: 17px;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+
+  .main-nav__link:hover {
+    color: #ffffff;
+  }
+
+  .main-nav__link:focus {
+    color: #20afff;
+  }
+}
+
+.main-nav__list-language {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 58px;
+  justify-content: space-between;
+}
+
+.main-nav__list-first {
+  margin: 0;
+  padding: 0;
+  margin-left: 88px;
+  display: flex;
+  justify-content: space-between;
+  width: 670px;
+}
+
+.main-nav__list-authorization {
+  margin: 0;
+  padding: 0;
+  margin-left: 249px;
+  display: flex;
+  width: 135px;
+  justify-content: space-between;
+}
+
+.main-nav__list-second {
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 27px;
+  padding-left: 148px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+
+  .main-nav__link {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+
+    &:hover {
+      color: #20afff;
+      border-bottom: 1px solid #20afff;
+    }
+
+    &:focus {
+      color: rgba(255, 255, 255, 0.5);
+      border: none;
+    }
+  }
+}
+
+.main-nav__logo {
+  position: absolute;
+  top: 70px;
+  left: 0;
+}
+
+.main-nav__link {
+  position: relative;
+  color: rgba(255, 255, 255, 0.5);
+
+  &--cargo {
+    margin-left: 52px;
+  }
+
+  &-arrow {
+    position: absolute;
+    bottom: -13px;
+    left: 50%;
+
+    &:hover {
+      fill: #20afff;
+    }
+  }
+}
+
+.main-nav__item {
+  position: relative;
+
+  &--stick::before {
+    content: "|";
+    position: absolute;
+    right: -11px;
+    top: -1px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  &--slash::before {
+    content: "/";
+    position: absolute;
+    right: -13px;
+    top: 0;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.active {
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 57px, #ebebeb 57px, #ebebeb 58px, #ffffff 58px, #ffffff 100%);
+
+  .main-nav__link {
+    color: #B9B9B9;
+
+    &:hover {
+      color: #20AFFF;
+    }
+  }
+
+  .main-nav__link-second {
+    color: #004460;
+
+
+    svg {
+      fill: #004460;
+
+      &:hover {
+        fill: #20afff;
+      }
+    }
+  }
+
+  .main-nav__logo-image {
+    display: none;
+  }
+
+  .main-nav__logo-image--navbar {
+    display: block;
+  }
+}
